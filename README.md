@@ -73,10 +73,14 @@ nohup python generate.py   \
 > ./dataset/7b/gsm8k.log 2>&1
 ```
 
-### Deployement 
+### 4. Deployement 
 The docker container is used for edge-cloud collaborative deployement.
 ```
 ./Dokerfile
 ./Communication/edge
 ./communication/cloud
 ```
+## Acknolwedgement
+https://github.com/tloen/alpaca-lora
+
+https://github.com/FreedomIntelligence/OVM
